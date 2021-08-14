@@ -10,11 +10,11 @@ rpc.on('ready', () => {
         startTimestamp: Date.now(),
         smallImageKey: 'Random info',
         smallImageText: 'Random info',
-        largeImageKey: 'Random info',
+        largeImageKey: 'icon',
         largeImageText: 'Random info',
         instance: true
     });
 });
 rpc.login({
-    clientId: '',
+    clientId: '876183898311233537',
 });
