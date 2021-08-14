@@ -18,5 +18,5 @@ rpc.on('ready', () => {
     });
 });
 rpc.login({
-    clientId: '',
+    clientId: process.env.clientId,
 });
