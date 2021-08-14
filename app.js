@@ -15,5 +15,5 @@ rpc.on('ready', () => {
     });
 });
 rpc.login({
-    clientId: '876183898311233537',
+    clientId: 'CLIENT TOKEN GOES HERE',
 });
