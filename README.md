@@ -38,7 +38,7 @@ Copy your app's client id
 
 Place the token into .env file and then head into app.js and customize the presence's look! All the info is in the files.
 
-
+To run the script, run start.bat or app.js. 
 
 
 # Thank you for using! Please leave your feedback! : )
