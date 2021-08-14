@@ -8,7 +8,7 @@ const rpc = new discRpc.Client({
 rpc.on('ready', () => {
     rpc.setActivity({
         details: this.version,
-        state: 'Description',
+        state: 'Description', // Just a basic description!
         startTimestamp: Date.now(),
         smallImageKey: 'icon_name',                 // Insert a name of your image that you have set on your app. | Displays a image
         smallImageText: 'image_hover_text',         // Text that will display when you hover over the image.
