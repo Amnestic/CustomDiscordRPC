@@ -6,7 +6,7 @@ const rpc = new discRpc.Client({
 rpc.on('ready', () => {
     rpc.setActivity({
         details: this.version,
-        state: 'Random State Info',
+        state: 'Description',
         startTimestamp: Date.now(),
         smallImageKey: 'Random info',
         smallImageText: 'Random info',
