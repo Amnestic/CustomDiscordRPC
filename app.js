@@ -1,3 +1,5 @@
+// Template made by Amnestic
+
 const discRpc = require('discord-rpc');
 require('dotenv').config();
 const rpc = new discRpc.Client({
