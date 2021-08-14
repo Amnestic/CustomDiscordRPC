@@ -12,7 +12,7 @@ rpc.on('ready', () => {
         startTimestamp: Date.now(),
         smallImageKey: 'icon_name',                 // Insert a name of your image that you have set on your app. | Displays a image
         smallImageText: 'image_hover_text',         // Text that will display when you hover over the image.
-        largeImageKey: 'icon', 
+        largeImageKey: 'icon_name', 
         largeImageText: 'image_hover_text', 
         instance: true
     });
