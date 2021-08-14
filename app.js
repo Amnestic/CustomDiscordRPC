@@ -1,4 +1,5 @@
 const discRpc = require('discord-rpc');
+require('dotenv').config();
 const rpc = new discRpc.Client({
     transport: 'ipc'
 });
@@ -15,5 +16,5 @@ rpc.on('ready', () => {
     });
 });
 rpc.login({
-    clientId: 'CLIENT TOKEN GOES HERE',
+    clientId: '876183898311233537',
 });
