@@ -10,10 +10,10 @@ rpc.on('ready', () => {
         details: this.version,
         state: 'Description',
         startTimestamp: Date.now(),
-        smallImageKey: 'Your Image Name', // Insert a name of your image that you have set on your app. | Displays a image
-        smallImageText: 'Your Image Text', // Text that will display when you hover over the image.
-        largeImageKey: 'icon', // Insert a name of your image that you have set on your app. | Displays a image
-        largeImageText: 'Image Hover Text', // Text that will display when you hover over the image.
+        smallImageKey: 'icon_name', // Insert a name of your image that you have set on your app. | Displays a image
+        smallImageText: 'image_hover_text', // Text that will display when you hover over the image.
+        largeImageKey: 'icon_name', // Insert a name of your image that you have set on your app. | Displays a image
+        largeImageText: 'image_hover_text', // Text that will display when you hover over the image.
         instance: true
     });
 });
