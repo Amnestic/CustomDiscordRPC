@@ -17,7 +17,6 @@ rpc.on('ready', () => {
         largeImageText: 'image_hover_text', 
         buttons: [ 
             { label: 'Button Name', url: 'Your URL goes here' } // <--- Button  | To add buttons just copy the line and replace the fields. For ex. { label: 'Button Name', url: 'Your URL goes here' } { label: 'Button Name', url: 'Your URL goes here' }
-            
         ],
         instance: true
     });
