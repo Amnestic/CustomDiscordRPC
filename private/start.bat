@@ -1,1 +1,0 @@
-start /private/app.js
